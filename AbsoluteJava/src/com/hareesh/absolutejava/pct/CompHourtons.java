@@ -36,7 +36,8 @@ public class CompHourtons {
 		printCustomers();
 		
 		HeightComparator heightComparator = new HeightComparator();
-		Collections.sort(customers, heightComparator);
+		customers.sort(heightComparator);
+		//Collections.sort(customers, heightComparator);
 		printCustomers();
 		
 	}
